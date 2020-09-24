@@ -12,7 +12,14 @@ body{
   font-weight: normal;
   font-style: normal;
 }
-
+#box{
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
 .container {
   position: relative;
   text-align: center;
