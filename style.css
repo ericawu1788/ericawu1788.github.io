@@ -1,0 +1,148 @@
+h1, h2{
+  color: white;
+  font:"Bodini MT";
+  text-align: center;
+  padding: 100px;
+}
+
+body{
+  background-image:linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.8)),url(tree.jpg);
+  font-family: "Bodini MT";
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  opacity: 0.9;
+  font:Bodoni;
+  text-align: center;
+
+}
+.container img{
+  top:100px;
+  width: 20%;
+
+  opacity: 0.7
+
+}
+
+img:hover {
+opacity: 1.0;
+}
+.tab {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #003C20;
+  font-size: 20px;
+  color: white;
+  font:"Bodini MT";
+}
+
+
+/*
+.great{
+  color:red;
+}
+#tree{
+  opacity:0.5;
+}
+#upper_right{
+  background-color: lightblue;
+  position:absolute;
+  width:100px;
+  top:30px;
+  right:20px;
+  padding: 10px;
+}
+#upper_right img{
+  width:75%;
+  display:block;
+}
+.super_mega{
+  font-size: 2em;
+  color:mediumvioletred;
+}
+/*
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.main-container{
+	max-width: 980px;
+	width: 90%;
+	margin: 10px auto;
+}
+
+.top-container{
+	height: 100px;
+	background-color: blue;
+}
+
+.middle-container{
+	height: 400px;
+	background-color: aqua;
+}
+
+.bottom-container{
+	height:	100px;
+	background-color: gray;
+}
+
+@media (max-width: 640px) {
+	.main-container {
+		width: 70%;
+	}
+}
+
+/*
+.demo_wrap {
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+
+}
+.demo_wrap h1 {
+    padding: 100px;
+    position: relative;
+    z-index: 2;
+}
+.demo_wrap .green_bg{
+  padding:200px;
+  position:relative;
+
+}
+.demo_wrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.4;
+
+}
+*/
+/*
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.name{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font:Bodini;
+  text-align: center;
+}
+*/
