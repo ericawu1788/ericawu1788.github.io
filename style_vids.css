@@ -7,7 +7,7 @@ h1, h2{
   right:100px;
   text-align: center;
   font-size: 70px;
-  z-index:6;
+  z-index:8;
 }
 
 body{
@@ -18,24 +18,24 @@ body{
   font-style: normal;
 }
 
-#tree2{
+#sea2{
   position:absolute;
   left:0;
   right:0;
   top:0px;
   bottom:0;
-  opacity:0.2;
+  opacity:0.8;
   z-index:3;
   max-width: 100%
 }
 
-#sea2{
+#tree2{
   position:absolute;
-  top:200px;
+  top:0px;
   left:0px;
   right:0px;
   bottom:0;
-  opacity: 0.6;
+  opacity: 1;
   z-index:1;
   resize:50%;
 }
@@ -48,44 +48,101 @@ body{
 	height: 60px;
 	background: #003C20;
   opacity:0.9;
-  z-index:4;
+  z-index:9;
 }
-#box{
-  position: fixed;
-  top:0px;
-  left:0px;
-  right:0px;
-  height:160px;
-	background: #003C20;
-  opacity:0.7;
-  z-index:3;
-}
+
 #box3{
   position: fixed;
   top:0px;
   left:0px;
   right:0px;
-  height:160px;
+  height:220px;
 	background: white;
   opacity:1;
   z-index:2;
 }
+
+#box4{
+  position: absolute;
+  top:260px;
+  left:120px;
+  right:50px;
+  height:80px;
+	background: white;
+  opacity:0.9;
+  z-index:6;
+}
+
+#box5{
+  position: absolute;
+  top:280px;
+  width:400px;
+  right:30px;
+  height:304px;
+	background: #003C20;
+  opacity:0.9;
+  z-index:5;
+}
+#box6{
+  position: fixed;
+  top:0px;
+  left:0px;
+  right:0px;
+  height:220px;
+	background: white;
+  opacity:0.5;
+  z-index:8;
+}
+#box7{
+  position: fixed;
+  top:220px;
+  left:0px;
+  right:0px;
+  bottom:0;
+	background: white;
+  opacity:0.5;
+  z-index:4;
+}
 pre {
   font-family: "Bodoni 72";
   text-align: center;
-  z-index:5;
+  z-index:10;
 }
 
 .tab {
   position: fixed;
-	top: 140px;
+	top: 154px;
 	left: 100px;
   right: 100px;
-  z-index:5;
-  font-size: 30px;
+  z-index:10;
+  font-size: 24px;
   color: white;
 }
 
-href{
+a{
   color: white;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration:underline;
+}
+p{
+  position:relative;
+}
+#video{
+  z-index:7;
+  position:absolute;
+  top:280px;
+  left:100px;
+  width:400px;
+}
+
+#text{
+  position:absolute;
+  opacity:1;
+  top:290px;
+  right:90px;
+  font-size: 40px;
+  z-index:7;
+  color: #003C20;
 }
