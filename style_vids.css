@@ -172,11 +172,11 @@ h2{
 }
 /*white trans background*/
 #box7{
-  position: fixed;
-  top:100px;
-  left:0px;
-  right:0px;
-  bottom:0;
+  position: absolute;
+  top:620px;
+  left:7%;
+  right:10%;
+  height:400px;
 	background: white;
   opacity:0.5;
   z-index:4;
