@@ -17,6 +17,9 @@ body{
   font-weight: normal;
   font-style: normal;
   color:white;
+  background: url("sea2.jpg");
+  background-repeat:repeat-y;
+  background-size:cover;
 }
 p.body{
   position:absolute;
@@ -32,7 +35,7 @@ h2{
   color: #003C20;
 }
 .container h3{
-  padding:10px;
+  padding:10px 20px;
   font-size: 40px;
   font-family: "Bodoni 72 Smallcaps"
 }
@@ -93,8 +96,8 @@ h2{
   top:0px;
   left:0px;
   right:0px;
-  bottom:0;
-  opacity: 1;
+  bottom:0px;
+  opacity: 0.5;
   z-index:1;
   resize:50%;
 }
