@@ -69,7 +69,7 @@ h2{
   padding:10px;
   color:#003C20;
 }
-.row2 p{
+.column2 {
   font-family: "Bodoni 72"
   color:white;
 }
@@ -208,6 +208,11 @@ pre {
   z-index:10;
   font-size: 24px;
   color: white;
+  opacity: 1;
+}
+pre span{
+  font-family: "Bodoni 72 Smallcaps";
+  text-decoration:underline;
 }
 
 /*.container img{
