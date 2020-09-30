@@ -13,7 +13,7 @@ h1{
 body{
   /*background-image:linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.8)),url(tree.jpg);*/
   font-family: "Bodoni 72 Smallcaps","Bodoni 72";
-  font-size: 18px;
+  font-size: 24px;
   font-weight: normal;
   font-style: normal;
   color:white;
@@ -23,6 +23,10 @@ body{
 }
 p.body{
   position:absolute;
+}
+#words{
+  font-family: "Bodoni 72 Smallcaps";
+  font-size: 24px;
 }
 h2{
   position:absolute;
@@ -54,11 +58,9 @@ h2{
 .row1{
   display:flex;
   z-index: 12;
-  flex-direction: row;
 }
 .column1{
   flex:25%;
-  padding:5px;
 }
 .row2{
   display:flex;
@@ -66,19 +68,21 @@ h2{
 .column2{
   flex:25%;
   width:200px;
-  padding:10px;
   color:#003C20;
-}
-.column2 {
   font-family: "Bodoni 72"
   color:white;
 }
-
-.container img{
-  border:2px;
-  border-color:#003C20;
+.column3{
+  flex:25%;
 }
 
+.row3{
+  display:flex;
+}
+span{
+  font-family:"Bodoni 72";
+  font-size: 20px;
+}
 
 #sea2{
   position:absolute;
@@ -166,11 +170,22 @@ h2{
   z-index:5;
   padding: 20px;
   color:white;
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
-  font-family:"Bodoni 72";
+  font-family:"Bodoni";
 }
 /*white trans background*/
+#box6{
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  height:0;
+	background: white;
+  opacity:0.5;
+  z-index:4;
+}
+/*white box*/
 #box7{
   position: absolute;
   top:620px;
