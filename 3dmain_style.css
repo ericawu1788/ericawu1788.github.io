@@ -81,9 +81,13 @@ body{
   position: relative;
   list-style: none;
   opacity:1;
+  text-align: center;
+}
+#main iframe{
+  display:flex;
 }
 #main img{
-  height:220px;
+  height:320px;
   width:auto;
   padding-bottom:10px;
   opacity:1;
@@ -94,7 +98,7 @@ body{
   margin:20px;
   padding-bottom: 10px;
   flex:25%;
-  font-family: "Bodoni 72"
+  font-family: "Bodoni 72";
   opacity:1;
   color:white;
 }

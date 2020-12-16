@@ -12,7 +12,7 @@ body h1{
   background: #003C20;
 }
 html {
-  background: url("me_back.JPG") no-repeat center center fixed;
+  background: url("./dnc_img/back.JPG") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -37,7 +37,7 @@ html {
   right:0;
   bottom:0;
   opacity:0.8;
-  background: url("me_mid.JPG") no-repeat center center fixed;
+  background: url("./dnc_img/mid.JPG") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -61,14 +61,6 @@ body{
   margin:0;
   padding:0;
 }
-#main p{
-  position:relative;
-  text-align: left;
-  font-family: "Bodoni 72";
-  opacity:1;
-  color:white;
-  padding-left:20px;
-}
 
 #main{
   position:relative;
@@ -82,8 +74,7 @@ body{
   margin:0 auto;
   text-align: center;
   z-index:1;
-  /*only in me.*/height:400px;
-  bottom: 120px;
+  margin-bottom: 120px;
 }
 
 #main ul{
