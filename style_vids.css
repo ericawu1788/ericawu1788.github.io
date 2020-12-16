@@ -84,16 +84,6 @@ span{
   font-size: 20px;
 }
 
-#sea2{
-  position:absolute;
-  left:0;
-  right:0;
-  top:0px;
-  bottom:0;
-  opacity:0.8;
-  z-index:3;
-  max-width: 100%
-}
 
 #tree2{
   position:absolute;
@@ -104,14 +94,16 @@ span{
   opacity: 0.5;
   z-index:1;
   resize:50%;
+  max-height:100%;
+  width:auto;
 }
 
 #mangr{
   position:fixed;
   top:0;
-  left:0;
-  width:100%;
   height:160px;
+  max-height: 100%;
+  width:auto;
   z-index:9;
 }
 /*tab*/
@@ -238,7 +230,26 @@ pre span{
   padding:30px;
   width:150px;
 }*/
-
+nav ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+  z-index:10;
+}
+nav li{
+  display:inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size:14px;
+}
+nav a:hover{
+  color:#000;
+}
 a{
   color: white;
   text-decoration: none;

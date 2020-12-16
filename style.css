@@ -8,6 +8,23 @@ h1, h2{
   text-align: center;
   font-size: 70px;
   z-index:6;
+  font-weight:400;
+}
+html {
+  background: url("sealand.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#box2{
+  position:absolute;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  background-color: white;
+  opacity: 0.5;
 }
 
 body{
@@ -16,6 +33,41 @@ body{
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
+}
+
+.container{
+  width:80%;
+  margin:0 auto;
+}
+header{
+  background:#003C20;
+  top: 174px;
+}
+
+header::after{
+  content: '';
+  display: table;
+  clear:both;
+}
+
+nav ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+nav li{
+  display:inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size:14px;
+}
+nav a:hover{
+  color:#000;
 }
 
 #tree{
