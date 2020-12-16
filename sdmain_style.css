@@ -12,7 +12,7 @@ body h1{
   background: #003C20;
 }
 html {
-  background: url("sealand.JPG") no-repeat center center fixed;
+  background: url("./sd_img/back.JPG") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -37,7 +37,7 @@ html {
   right:0;
   bottom:0;
   opacity:0.8;
-  background: url("sea2.JPG") no-repeat center center fixed;
+  background: url("./sd_img/mid.JPG") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
