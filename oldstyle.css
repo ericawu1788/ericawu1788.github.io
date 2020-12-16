@@ -1,0 +1,138 @@
+h1, h2{
+  color: #003C20;
+  position:fixed;
+  font:"Bodoni 72 Smallcaps";
+  top:30px;
+  left:100px;
+  right:100px;
+  text-align: center;
+  font-size: 70px;
+  z-index:6;
+  font-weight:400;
+}
+html {
+  background: url("sealand.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#box2{
+  position:absolute;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+body{
+  /*background-image:linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.8)),url(tree.jpg);*/
+  font-family: "Bodoni 72 Smallcaps", "Bodoni 72";
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container{
+  width:80%;
+  margin:0 auto;
+}
+header{
+  background:#003C20;
+  top: 174px;
+}
+
+header::after{
+  content: '';
+  display: table;
+  clear:both;
+}
+
+nav ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+nav li{
+  display:inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size:14px;
+}
+nav a:hover{
+  color:#000;
+}
+
+#tree{
+  position:absolute;
+  left:0;
+  right:0;
+  top:0px;
+  bottom:0;
+  opacity:0.2;
+  z-index:3;
+  max-width: 100%
+}
+
+#sea{
+  position:absolute;
+  top:240px;
+  left:200px;
+  right:200px;
+  bottom:100px;
+  opacity: 1;
+  z-index:1;
+  resize:50%;
+}
+
+#box1{
+  position: fixed;
+	top: 180px;
+	left: 200px;
+  right:200px;
+	height: 60px;
+	background: #003C20;
+  opacity:0.9;
+  z-index:4;
+}
+
+#box3{
+  position: fixed;
+  top:0px;
+  left:0px;
+  right:0px;
+  height:240px;
+	background: white;
+  opacity:1;
+  z-index:2;
+}
+pre {
+  font-family: "Bodoni 72";
+  text-align: center;
+  z-index:5;
+}
+
+.tab {
+  position: fixed;
+	top: 174px;
+	left: 100px;
+  right: 100px;
+  z-index:5;
+  font-size: 24px;
+  color: white;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration:underline;
+}
