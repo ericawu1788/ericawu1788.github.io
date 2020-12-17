@@ -55,7 +55,7 @@ html {
 
 body{
   font-family: "Bodoni 72", "Bodoni 72 Smallcaps";
-  font-size: 18px;
+  font-size: clamp(12px,18px,1.75vw);
   font-weight: normal;
   font-style: normal;
   margin:0;
